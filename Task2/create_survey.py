@@ -5,8 +5,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 # Set up SurveyMonkey API details
-ACCESS_TOKEN = "rzK6HA54nZqRBAaYSMIcilLqphrCedn0mmXtwHh1pNRZx4HdOgYbTSyNU2xOmS2qQy.nh3bVwiZdpYlbG3eqYxfz-OHsp.2cNyS-1xeMHvgA7axoadnT4TA4xrwYT5lP"
-
+ACCESS_TOKEN = "YOUR_ACCESS_TOKEN_HERE"  # Replace with your actual SurveyMonkey access token
 BASE_URL = "https://api.surveymonkey.com/v3"
 
 def create_survey(survey_data):
@@ -72,8 +71,8 @@ def send_survey_via_email(survey_id, recipients_file):
     # SMTP Configuration for Gmail
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
-    sender_email = "jokasto511@gmail.com"
-    sender_password = "jmpsehheyfpuizlj"
+    sender_email = "YOUR_EMAIL@gmail.com"  # Replace
+    sender_password = "YOUR_APP_PASSWORD"   # Replace
 
     # Read recipient emails from file
     with open(recipients_file, 'r') as f:
