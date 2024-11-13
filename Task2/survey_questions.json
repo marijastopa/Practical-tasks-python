@@ -1,0 +1,19 @@
+{
+  "My_Survey": {
+    "Main_Page": {
+      "Question1": {
+        "Description": "What is your favorite color?",
+        "Answers": ["Red", "Blue", "Green"]
+      },
+      "Question2": {
+        "Description": "What is your favorite animal?",
+        "Answers": ["Cat", "Dog", "Bird"]
+      },
+      "Question3": {
+        "Description": "What is your favorite food?",
+        "Answers": ["Pizza", "Sushi", "Pasta"]
+      }
+    }
+  }
+}
+
